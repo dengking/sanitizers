@@ -1,3 +1,4 @@
+// https://docs.microsoft.com/en-us/cpp/sanitizers/error-heap-use-after-free?view=msvc-170
 // example2.cpp
 // heap-use-after-free error
 

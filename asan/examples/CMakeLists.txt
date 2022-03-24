@@ -23,3 +23,5 @@ set (CMAKE_LINKER_FLAGS_DEBUG "${CMAKE_LINKER_FLAGS_DEBUG} -fno-omit-frame-point
 add_subdirectory(heap-use-after-free)
 add_subdirectory(stack-use-after-return)
 add_subdirectory(stack-use-after-scope)
+add_subdirectory(leak)
+add_subdirectory(memcpy-param-overlap)

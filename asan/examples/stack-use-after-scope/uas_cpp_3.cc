@@ -1,3 +1,4 @@
+// https://docs.microsoft.com/en-us/cpp/sanitizers/error-stack-use-after-scope?view=msvc-170
 // example4.cpp
 // stack-use-after-scope error
 #include <iostream>

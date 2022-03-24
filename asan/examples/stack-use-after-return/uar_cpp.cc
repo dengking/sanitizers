@@ -1,3 +1,4 @@
+// https://docs.microsoft.com/en-us/cpp/sanitizers/error-stack-use-after-return?view=msvc-170
 // example2.cpp
 // stack-use-after-return error
 #include <stdlib.h>
