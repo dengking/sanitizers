@@ -1,3 +1,4 @@
+// https://docs.microsoft.com/en-us/cpp/sanitizers/error-global-buffer-overflow?view=msvc-170
 // example3.cpp
 // global-buffer-overflow error
 

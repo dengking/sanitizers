@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 
+set(CMAKE_C_COMPILER "/Users/dengkai01/chromium/src/third_party/llvm-build/Release+Asserts/bin/clang")
+set(CMAKE_CXX_COMPILER "/Users/dengkai01/chromium/src/third_party/llvm-build/Release+Asserts/bin/clang++")
+set(CMAKE_LINKER "/Users/dengkai01/chromium/src/third_party/llvm-build/Release+Asserts/bin/lld")
+
 # Set a default build type if none was specified
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
   message("Setting build type to 'Debug' as none was specified.")
@@ -13,7 +17,7 @@ endif()
 project(asan-examples)
 
 # set the C++ standard to C++ 11
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_C_STANDARD 11)
 
 set (CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -fno-omit-frame-pointer -fsanitize=address")
@@ -35,5 +39,10 @@ add_subdirectory(double-free)
 add_subdirectory(stack-buffer-overflow)
 add_subdirectory(stack-buffer-underflow)
 add_subdirectory(global-buffer-overflow)
+add_subdirectory(heap-buffer-overflow)
+add_subdirectory(calloc-overflow)
 
+#alloc-dealloc
+add_subdirectory(alloc-dealloc-mismatch)
+add_subdirectory(new-delete-type-mismatch)
 
