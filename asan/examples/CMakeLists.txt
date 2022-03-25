@@ -20,8 +20,17 @@ set (CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -fno-omit-frame-pointer -fsanit
 set (CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fno-omit-frame-pointer -fsanitize=address")
 set (CMAKE_LINKER_FLAGS_DEBUG "${CMAKE_LINKER_FLAGS_DEBUG} -fno-omit-frame-pointer -fsanitize=address")
 
+# use-after-free
 add_subdirectory(heap-use-after-free)
 add_subdirectory(stack-use-after-return)
 add_subdirectory(stack-use-after-scope)
 add_subdirectory(leak)
+# param-overlap
 add_subdirectory(memcpy-param-overlap)
+add_subdirectory(strncat-param-overlap)
+
+add_subdirectory(double-free)
+# overflow-underflow
+add_subdirectory(stack-buffer-overflow)
+add_subdirectory(stack-buffer-underflow)
+
