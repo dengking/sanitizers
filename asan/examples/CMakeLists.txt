@@ -30,7 +30,10 @@ add_subdirectory(memcpy-param-overlap)
 add_subdirectory(strncat-param-overlap)
 
 add_subdirectory(double-free)
+
 # overflow-underflow
 add_subdirectory(stack-buffer-overflow)
 add_subdirectory(stack-buffer-underflow)
+add_subdirectory(global-buffer-overflow)
+
 
