@@ -2,6 +2,7 @@
     "files.associations": {
         "*.cc": "cpp",
         "*.txt": "cmake",
-        "thread": "cpp"
+        "thread": "cpp",
+        "memory.h": "c"
     }
 }

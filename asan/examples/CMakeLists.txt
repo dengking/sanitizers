@@ -46,3 +46,5 @@ add_subdirectory(calloc-overflow)
 add_subdirectory(alloc-dealloc-mismatch)
 add_subdirectory(new-delete-type-mismatch)
 
+# other
+add_subdirectory(allocation-size-too-big)
