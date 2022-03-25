@@ -48,3 +48,6 @@ add_subdirectory(new-delete-type-mismatch)
 
 # other
 add_subdirectory(allocation-size-too-big)
+
+add_subdirectory(static-initialization-order-fiasco)
+
