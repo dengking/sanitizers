@@ -1,2 +1,2 @@
 
-add_executable(siof a.cc b.cc)
+add_executable(siof siof.cc a.cc)
