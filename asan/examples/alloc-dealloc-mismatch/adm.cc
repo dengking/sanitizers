@@ -1,3 +1,4 @@
+// https://docs.microsoft.com/en-us/cpp/sanitizers/error-alloc-dealloc-mismatch?view=msvc-170
 // example1.cpp
 // alloc-dealloc-mismatch error
 #include <stdio.h>
