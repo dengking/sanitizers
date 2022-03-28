@@ -1,3 +1,4 @@
+// https://docs.microsoft.com/en-us/cpp/sanitizers/error-new-delete-type-mismatch?view=msvc-170
 // example1.cpp
 // new-delete-type-mismatch error
 #include <memory>
