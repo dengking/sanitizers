@@ -40,6 +40,7 @@ add_subdirectory(stack-buffer-underflow)
 add_subdirectory(global-buffer-overflow)
 add_subdirectory(heap-buffer-overflow)
 add_subdirectory(calloc-overflow)
+add_subdirectory(container-overflow)
 
 #alloc-dealloc
 add_subdirectory(alloc-dealloc-mismatch)

@@ -1,2 +1,2 @@
 
-add_executable(simplest-example simplest-example.cc)
+add_executable(simplest_example simplest_example.cc)
