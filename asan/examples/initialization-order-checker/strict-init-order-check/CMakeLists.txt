@@ -1,2 +1,2 @@
 
-add_executable(siof siof.cc a.cc)
+add_executable(strict-init-order-check init_order_atexit.cc init-order-atexit-extra.cc)
