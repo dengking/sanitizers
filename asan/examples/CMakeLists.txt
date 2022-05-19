@@ -49,7 +49,7 @@ add_subdirectory(new-delete-type-mismatch)
 # other
 add_subdirectory(allocation-size-too-big)
 
-add_subdirectory(static-initialization-order-fiasco)
+add_subdirectory(initialization-order-checker)
 
 add_subdirectory(wild-pointer)
 
