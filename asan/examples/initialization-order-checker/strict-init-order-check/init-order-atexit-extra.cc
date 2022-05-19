@@ -1,15 +1,17 @@
 #include <stdio.h>
 
-class C {
+class C
+{
 public:
 	C() { value = 42; }
-	~C() { }
+	~C() {}
 	int value;
 };
 
 C c;
 
-void AccessC() {
+void AccessC()
+{
 	printf("C value: %d\n", c.value);
 }
 
