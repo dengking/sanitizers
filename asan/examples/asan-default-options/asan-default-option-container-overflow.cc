@@ -4,7 +4,7 @@
 
 const char *__asan_default_options()
 {
-    return "verbosity=1:malloc_context_size=20";
+    return "detect_container_overflow=0";
 }
 
 typedef long T;
