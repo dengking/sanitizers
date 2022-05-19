@@ -1,2 +1,2 @@
-add_subdirectory(loose-init-order-check)
-add_subdirectory(strict-init-order-check)
+
+add_executable(initialization-order-checker a.cc b.cc)
