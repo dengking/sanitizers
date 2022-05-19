@@ -1,2 +1,2 @@
 
-add_executable(container-overflow container-overflow.cc)
+add_executable(asan-default-option-container-overflow asan-default-option-container-overflow.cc)

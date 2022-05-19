@@ -3,6 +3,7 @@
         "*.cc": "cpp",
         "*.txt": "cmake",
         "thread": "cpp",
-        "memory.h": "c"
+        "memory.h": "c",
+        "vector": "cpp"
     }
 }
