@@ -1,2 +1,3 @@
 
 add_executable(detect_container_overflow detect_container_overflow.cc)
+add_executable(halt_on_error halt_on_error.cc)
