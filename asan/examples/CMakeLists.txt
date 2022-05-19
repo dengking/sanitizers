@@ -53,3 +53,4 @@ add_subdirectory(static-initialization-order-fiasco)
 
 add_subdirectory(wild-pointer)
 
+add_subdirectory(asan-default-options)
