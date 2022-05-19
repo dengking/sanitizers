@@ -1,2 +1,2 @@
 
-add_executable(initialization-order-checker a.cc b.cc)
+add_executable(a.out a.cc b.cc)
