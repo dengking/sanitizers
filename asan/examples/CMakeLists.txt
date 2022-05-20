@@ -54,3 +54,5 @@ add_subdirectory(initialization-order-checker)
 add_subdirectory(wild-pointer)
 
 add_subdirectory(asan-default-options)
+
+add_subdirectory(invalid-pointer-pairs)
