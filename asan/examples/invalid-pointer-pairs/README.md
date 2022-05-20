@@ -1,10 +1,6 @@
 
+windows: Microsoft Visual Studio Professional 2022 (64 位) - Preview 版本 17.2.0 Preview 4.0
 
-https://github.com/llvm/llvm-project/blob/main/compiler-rt/test/asan/TestCases/invalid-pointer-pairs-compare-errors.cpp
+macOS: clang 13.1.6 arm64-apple-darwin21.3.0
 
-
-
-https://github.com/llvm/llvm-project/blob/main/compiler-rt/test/asan/TestCases/invalid-pointer-pairs-subtract-errors.cpp
-
-
-https://kristerw.blogspot.com/2018/06/
+在上述编译器中验证，发现都没有触发asan报错。
