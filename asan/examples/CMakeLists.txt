@@ -59,3 +59,5 @@ add_subdirectory(invalid-pointer-pairs)
 
 add_subdirectory(strict-string-check)
 
+add_subdirectory(turning-off-instrumentation)
+
