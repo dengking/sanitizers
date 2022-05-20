@@ -57,5 +57,5 @@ add_subdirectory(asan-default-options)
 
 add_subdirectory(invalid-pointer-pairs)
 
-add_subdirectory(strict_string_check)
+add_subdirectory(strict-string-check)
 
