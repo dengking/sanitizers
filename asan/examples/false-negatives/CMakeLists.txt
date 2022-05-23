@@ -1,2 +1,2 @@
 
-add_subdirectory(unaligned_access_out_of_bound)
+add_subdirectory(unaligned-access-out-of-bound)
