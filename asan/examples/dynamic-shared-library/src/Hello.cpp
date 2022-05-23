@@ -2,7 +2,9 @@
 
 #include "shared/Hello.h"
 
-void Hello::print()
+void heap_buffer_overflow()
 {
-    std::cout << "Hello Shared Library!" << std::endl;
+    double *p = new double[]{1, 2, 3}; // creates an array of type double[3]
+    std::cout << p[3] << std::endl;
+    delete[] p;
 }

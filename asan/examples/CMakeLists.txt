@@ -61,3 +61,7 @@ add_subdirectory(strict-string-check)
 
 add_subdirectory(turning-off-instrumentation)
 
+add_subdirectory(dynamic-shared-library)
+
+# add_subdirectory(continue-after-error)
+

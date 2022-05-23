@@ -1,10 +1,3 @@
-#ifndef __HELLO_H__
-#define __HELLO_H__
+#pragma once
 
-class Hello
-{
-public:
-    void print();
-};
-
-#endif
+void heap_buffer_overflow();

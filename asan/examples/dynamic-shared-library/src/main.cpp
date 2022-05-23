@@ -2,7 +2,6 @@
 
 int main(int argc, char *argv[])
 {
-    Hello hi;
-    hi.print();
+    heap_buffer_overflow();
     return 0;
 }

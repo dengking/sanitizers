@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 project(hello_library)
 
+
 ############################################################
 # Create a library
 ############################################################
@@ -10,7 +11,6 @@ project(hello_library)
 add_library(hello_library SHARED 
     src/Hello.cpp
 )
-add_library(hello::library ALIAS hello_library)
 
 target_include_directories(hello_library
     PUBLIC 
@@ -22,12 +22,12 @@ target_include_directories(hello_library
 ############################################################
 
 # Add an executable with the above sources
-add_executable(hello_binary
+add_executable(dynamic_lib_driven_main
     src/main.cpp
 )
 
 # link the new hello_library target with the hello_binary target
-target_link_libraries( hello_binary
+target_link_libraries( dynamic_lib_driven_main
     PRIVATE 
-        hello::library
+        hello_library
 )
