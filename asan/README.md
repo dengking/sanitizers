@@ -1,3 +1,2 @@
 # asan
-
-https://github.com/google/sanitizers/wiki
+example of asan.
