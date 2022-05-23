@@ -65,3 +65,4 @@ add_subdirectory(dynamic-shared-library)
 
 add_subdirectory(continue-after-error)
 
+add_subdirectory(false-negatives)
