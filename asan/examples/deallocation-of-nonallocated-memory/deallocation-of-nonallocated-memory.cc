@@ -1,3 +1,5 @@
+// https://developer.apple.com/documentation/xcode/deallocation-of-nonallocated-memory
+
 #include <stdlib.h>
 int main()
 {
