@@ -1,6 +1,19 @@
 // https://github.com/google/sanitizers/wiki/AddressSanitizerContainerOverflow
 #include <vector>
 #include <assert.h>
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+    const char* __asan_default_options()
+    {
+        return "detect_container_overflow=1";
+    }
+#ifdef __cplusplus
+}
+#endif
+
 typedef long T;
 int main()
 {
