@@ -27,7 +27,7 @@ set (CMAKE_LINKER_FLAGS_DEBUG "${CMAKE_LINKER_FLAGS_DEBUG} -fsanitize=address")
 add_subdirectory(heap-use-after-free)
 add_subdirectory(stack-use-after-return)
 add_subdirectory(stack-use-after-scope)
-add_subdirectory(leak)
+
 # param-overlap
 add_subdirectory(memcpy-param-overlap)
 add_subdirectory(strncat-param-overlap)
