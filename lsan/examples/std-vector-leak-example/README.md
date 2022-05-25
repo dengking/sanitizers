@@ -1,4 +1,4 @@
-这个例子是在https://github.com/google/sanitizers/wiki/AddressSanitizerContainerOverflow中提出的。
+这个例子是在 https://github.com/google/sanitizers/wiki/AddressSanitizerContainerOverflow 中提出的，由于std::vector的实现上采用了lazy-deallocate技术，因此如果container没有采用annotation特殊的实现，lsan是很难发现这个问题的。
 
 macOS M1 pro: 
 
