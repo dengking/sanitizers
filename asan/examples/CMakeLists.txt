@@ -69,3 +69,5 @@ add_subdirectory(false-negatives)
 
 add_subdirectory(deallocation-of-nonallocated-memory)
 
+add_subdirectory(run-time-flags)
+
