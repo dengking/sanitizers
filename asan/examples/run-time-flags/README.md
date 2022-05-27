@@ -19,5 +19,7 @@ ASAN_OPTIONS=help=1 ./run-time-flags
 
 windows:
 ```
-set ASAN_OPTIONS= help=1 
+set ASAN_OPTIONS= help=1 ./run-time-flags
 ```
+
+
