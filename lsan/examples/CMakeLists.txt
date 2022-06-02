@@ -24,6 +24,7 @@ add_subdirectory(run-time-flags)
 
 add_subdirectory(c-leak-example)
 add_subdirectory(c-leak-example2)
+add_subdirectory(c-leak-example3)
 
 add_subdirectory(cc-leak-example)
 add_subdirectory(cc-leak-example2)
