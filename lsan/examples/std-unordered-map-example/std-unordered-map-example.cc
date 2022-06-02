@@ -1,8 +1,12 @@
 #include <map>
 #include <unordered_map>
-std::unordered_map<int, bool> *m;
+std::unordered_map<int, bool> *global;
 int main(int argc, char **argv)
 {
-    m = new std::unordered_map<int, bool>;
-    m = 0;
+    global = new std::unordered_map<int, bool>;
+    global = 0;
+    {
+        auto *local = new std::unordered_map<int, bool>;
+    }
+    return 0;
 }

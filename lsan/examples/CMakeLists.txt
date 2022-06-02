@@ -19,22 +19,25 @@ set (CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -fsanitize=leak")
 set (CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fsanitize=leak")
 set (CMAKE_LINKER_FLAGS_DEBUG "${CMAKE_LINKER_FLAGS_DEBUG} -fsanitize=leak")
 
+
+add_subdirectory(run-time-flags)
+
 add_subdirectory(c-leak-example)
 add_subdirectory(c-leak-example2)
 
 add_subdirectory(cc-leak-example)
 add_subdirectory(cc-leak-example2)
 add_subdirectory(cc-leak-example3)
+add_subdirectory(cc-leak-example4)
+add_subdirectory(cc-leak-example5)
 
-add_subdirectory(leaky-global)
+add_subdirectory(oop-member-leak)
+add_subdirectory(oop-member-leak2)
 
 add_subdirectory(std-vector-leak-example)
 add_subdirectory(std-vector-leak-example2)
 add_subdirectory(std-vector-leak-example3)
-add_subdirectory(std-vector-leak-example4)
-add_subdirectory(std-vector-leak-example5)
+
 
 add_subdirectory(std-map-example)
 add_subdirectory(std-unordered-map-example)
-
-add_subdirectory(run-time-flags)

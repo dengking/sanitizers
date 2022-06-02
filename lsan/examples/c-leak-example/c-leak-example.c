@@ -2,11 +2,11 @@
 
 #include <stdlib.h>
 
-void *p;
+void *global;
 
 int main()
 {
-    p = malloc(7);
-    p = 0; // The memory is leaked here.
+    global = malloc(7);
+    global = 0; // The memory is leaked here.
     return 0;
 }

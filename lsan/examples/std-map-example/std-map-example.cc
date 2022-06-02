@@ -1,8 +1,14 @@
 #include <map>
 #include <unordered_map>
-std::map<int, bool> *m;
+
+std::map<int, bool> *global;
+
 int main(int argc, char **argv)
 {
-    m = new std::map<int, bool>;
-    m = 0;
+    global = new std::map<int, bool>;
+    global = 0;
+    {
+        auto *local = new std::map<int, bool>;
+    }
+    return 0;
 }

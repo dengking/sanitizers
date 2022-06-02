@@ -1,8 +1,11 @@
-// https://github.com/google/sanitizers/wiki/AddressSanitizerContainerOverflow
 #include <vector>
-std::vector<int *> *v;
+std::vector<int *> *global;
 int main(int argc, char **argv)
 {
-    v = new std::vector<int *>;
-    v = 0;
+    global = new std::vector<int *>;
+    global = 0;
+    {
+        auto *local = new std::vector<int *>;
+    }
+    return 0;
 }

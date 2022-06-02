@@ -1,11 +1,12 @@
 class C
 {
-    int i_{0};
+    int member_{0};
 };
 
-C *c;
+C *global;
 int main()
 {
-    c = new C;
-    c = 0;
+    global = new C;
+    global = 0;
+    return 0;
 }

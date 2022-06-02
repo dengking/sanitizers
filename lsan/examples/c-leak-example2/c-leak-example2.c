@@ -2,10 +2,10 @@
 
 #include <stdlib.h>
 
-void *p;
+void *global;
 
 int main()
 {
-    p = malloc(7);
+    global = malloc(7);
     return 0;
 }

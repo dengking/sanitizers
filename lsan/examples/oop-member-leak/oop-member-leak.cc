@@ -5,14 +5,17 @@ struct LeakyGlobal
 {
     LeakyGlobal()
     {
-        p = malloc(1337);
+        member_ = malloc(1337);
     }
     ~LeakyGlobal()
     {
-        p = 0;
+        member_ = 0;
     }
-    void *p;
+    void *member_;
 };
 
-LeakyGlobal leaky_global;
-int main(int argc, char *argv[]) {}
+LeakyGlobal global;
+
+int main(int argc, char *argv[])
+{
+}
