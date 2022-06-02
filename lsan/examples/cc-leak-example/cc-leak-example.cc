@@ -7,6 +7,5 @@ C *c;
 int main()
 {
     c = new C;
-    c = new C;
     c = 0;
 }
