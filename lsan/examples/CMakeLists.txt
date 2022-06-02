@@ -30,6 +30,7 @@ add_subdirectory(cc-leak-example2)
 add_subdirectory(cc-leak-example3)
 add_subdirectory(cc-leak-example4)
 add_subdirectory(cc-leak-example5)
+add_subdirectory(cc-leak-example6)
 
 add_subdirectory(oop-member-leak)
 add_subdirectory(oop-member-leak2)
@@ -37,7 +38,7 @@ add_subdirectory(oop-member-leak2)
 add_subdirectory(std-vector-leak-example)
 add_subdirectory(std-vector-leak-example2)
 add_subdirectory(std-vector-leak-example3)
-
+add_subdirectory(std-vector-leak-example4)
 
 add_subdirectory(std-map-example)
 add_subdirectory(std-unordered-map-example)
