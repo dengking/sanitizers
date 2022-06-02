@@ -1,2 +1,2 @@
 
-add_executable(cc-leak-example cc-leak-example.cc)
+add_executable(cc-leak-example2 cc-leak-example2.cc)
