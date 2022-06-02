@@ -9,7 +9,7 @@ struct LeakyGlobal
     }
     ~LeakyGlobal()
     {
-        v = 0;
+        // v = 0;
     }
     std::vector<int *> *v;
 };

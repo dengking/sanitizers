@@ -9,4 +9,5 @@ int main(int argc, char **argv)
     v->push_back(new int[30]);
     v->push_back(new int[40]);
     v->pop_back(); // The last element leaks now.
+    v = 0;
 }
