@@ -21,7 +21,10 @@ set (CMAKE_LINKER_FLAGS_DEBUG "${CMAKE_LINKER_FLAGS_DEBUG} -fsanitize=leak")
 
 add_subdirectory(c-leak-example)
 add_subdirectory(leaky-global)
+
 add_subdirectory(std-vector-leak-example)
 add_subdirectory(std-vector-leak-example2)
 add_subdirectory(std-vector-leak-example3)
 add_subdirectory(std-vector-leak-example4)
+
+add_subdirectory(std-map-example)
