@@ -30,3 +30,4 @@ add_subdirectory(std-vector-leak-example3)
 add_subdirectory(std-vector-leak-example4)
 
 add_subdirectory(std-map-example)
+add_subdirectory(std-unordered-map-example)
