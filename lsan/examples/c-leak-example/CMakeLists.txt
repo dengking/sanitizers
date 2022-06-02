@@ -1,2 +1,2 @@
 
-add_executable(c_leak leak.c)
+add_executable(c-leak-example c-leak-example.c)
