@@ -18,4 +18,8 @@ LeakyGlobal global;
 
 int main(int argc, char *argv[])
 {
+    {
+        LeakyGlobal local;
+    }
+    return 0;
 }
