@@ -1,3 +1,4 @@
 
 add_executable(detect_container_overflow detect_container_overflow.cc)
 add_executable(halt_on_error_log_path halt_on_error_log_path.cc)
+add_executable(detect_leaks detect_leaks.cc)
