@@ -1,19 +1,9 @@
-// https://github.com/google/sanitizers/wiki/AddressSanitizerLeakSanitizer
-
 #include <stdlib.h>
-void FooBar()
-{
-    malloc(7);
-}
-
-void Baz()
-{
-    malloc(5);
-}
 
 int main()
 {
-    FooBar();
-    Baz();
+    {
+        void *local = malloc(7);
+    }
     return 0;
 }
