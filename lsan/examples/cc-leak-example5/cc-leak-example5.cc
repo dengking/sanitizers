@@ -5,7 +5,7 @@ class C
 
 int main()
 {
-
+    // leak four time
     {
         auto *local = new C;
         auto *local2 = new C;

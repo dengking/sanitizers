@@ -3,12 +3,12 @@
 #include <stdlib.h>
 void FooBar()
 {
-    malloc(7);
+    malloc(7); // leak once
 }
 
 void Baz()
 {
-    malloc(5);
+    malloc(5); // leak once
 }
 
 int main()

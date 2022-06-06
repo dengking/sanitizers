@@ -7,6 +7,6 @@ C *global;
 int main()
 {
     global = new C;
-    global = 0;
+    global = 0; // leak once
     return 0;
 }

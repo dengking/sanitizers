@@ -2,6 +2,7 @@
 
 int main()
 {
+    // leak once
     {
         void *local = malloc(7);
     }

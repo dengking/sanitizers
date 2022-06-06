@@ -6,6 +6,7 @@ class C
 C *global;
 int main()
 {
+    // leak four time
     global = new C;
     global = new C;
     global = new C;
