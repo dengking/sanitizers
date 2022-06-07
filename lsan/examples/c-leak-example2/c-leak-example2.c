@@ -6,6 +6,6 @@ void *global;
 
 int main()
 {
-    global = malloc(7); 
+    global = malloc(7);
     return 0;
 }
