@@ -71,3 +71,5 @@ add_subdirectory(deallocation-of-nonallocated-memory)
 
 add_subdirectory(run-time-flags)
 
+add_subdirectory(test)
+
